@@ -10,6 +10,9 @@
 - Scaffold
 - Lens
 - Kompose
+- VSCode
+
+### Virtualbox
 
 ### Docker
 
@@ -45,3 +48,5 @@ Testen der Installation: `minikube start` (Dashboard unter: `minikube dashboard`
 ### Kompose
 
 https://kompose.io/installation/
+
+### VSCode
