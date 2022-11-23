@@ -2,11 +2,14 @@
 
 ## Benötigte Installationen
 
+- Virtualbox
 - Docker (Alternativ: Podman)
 - Kubernetes
 - Kubectl
 - Minikube
 - Scaffold
+- Lens
+- Kompose
 
 ### Docker
 
@@ -36,3 +39,9 @@ Installation mit:
 Testen der Installation: `minikube start` (Dashboard unter: `minikube dashboard`)
 
 ### Scaffold
+
+### Lens
+
+### Kompose
+
+https://kompose.io/installation/
