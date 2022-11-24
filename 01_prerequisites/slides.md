@@ -16,10 +16,16 @@
 https://docs.docker.com/desktop/install/windows-install/
 
 Zwei Installationsarten:
-  - WSL2 (bevorzugt)
+  - über WSL2: https://learn.microsoft.com/en-us/windows/wsl/install + Installation einer WSL2-Distro im Windows-Store, z.B. Ubuntu
   - Hyper-V (wird durch WSL2 ersetzt: https://www.docker.com/blog/docker-hearts-wsl-2/)
 
+Empfehlungen:
+  - In den Docker-Desktop-Settings den Speicher für Docker auf mindestens 8GB setzen
+  - Windows-Terminal aus dem Windows-Store installieren
+
 ### Kubernetes
+
+In Docker-Desktop aktivieren
 
 ### Kubectl
 
@@ -39,12 +45,18 @@ https://minikube.sigs.k8s.io/docs/start/
 
 Installation mit:
   - Powershell: ```New-Item -Path 'c:\' -Name 'minikube' -ItemType Directory -Force Invoke-WebRequest -OutFile 'c:\minikube\minikube.exe' -Uri 'https://github.com/kubernetes/minikube/releases/latest/download/minikube-windows-amd64.exe' -UseBasicParsing```
-  - Winget: winget install minikube
-  - Choco: choco install minikube
+  - Winget: `winget install minikube`
+  - Choco: `choco install minikube`
 
 Testen der Installation: `minikube start` (Dashboard unter: `minikube dashboard`)
 
 ### Scaffold
+
+https://skaffold.dev/docs/install/#standalone-binary
+
+Installation mit:
+  - Scoop: `scoop bucket add extras` und `scoop install skaffold`
+  - Choco: `choco install -y skaffold`
 
 ### Lens
 
