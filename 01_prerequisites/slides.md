@@ -2,8 +2,7 @@
 
 ## Benötigte Installationen
 
-- Virtualbox
-- Docker (Alternativ: Podman)
+- Docker
 - Kubernetes
 - Kubectl
 - Minikube
@@ -12,9 +11,13 @@
 - Kompose
 - VSCode
 
-### Virtualbox
-
 ### Docker
+
+https://docs.docker.com/desktop/install/windows-install/
+
+Zwei Installationsarten:
+  - WSL2 (bevorzugt)
+  - Hyper-V (wird durch WSL2 ersetzt: https://www.docker.com/blog/docker-hearts-wsl-2/)
 
 ### Kubernetes
 
