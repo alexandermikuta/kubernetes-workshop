@@ -6,7 +6,7 @@
 - Kubernetes
 - Kubectl
 - Minikube
-- Scaffold
+- Skaffold
 - Lens
 - Kompose
 - VSCode
@@ -50,7 +50,7 @@ Installation mit:
 
 Testen der Installation: `minikube start` (Dashboard unter: `minikube dashboard`)
 
-### Scaffold
+### Skaffold
 
 https://skaffold.dev/docs/install/#standalone-binary
 
@@ -60,8 +60,15 @@ Installation mit:
 
 ### Lens
 
+https://k8slens.dev/
+
 ### Kompose
 
 https://kompose.io/installation/
 
 ### VSCode
+
+https://code.visualstudio.com/
+
+Empfohlene Plugins:
+  - Cloud Code: https://marketplace.visualstudio.com/items?itemName=GoogleCloudTools.cloudcode
