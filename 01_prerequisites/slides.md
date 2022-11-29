@@ -6,6 +6,8 @@
 - Kubernetes
 - Kubectl
 - Minikube
+- Helm
+- Helmfile
 - Skaffold
 - Lens
 - Kompose
@@ -51,6 +53,21 @@ Installation mit:
   - Choco: `choco install minikube`
 
 Testen der Installation: `minikube start` (Dashboard unter: `minikube dashboard`)
+
+### Helm
+
+https://helm.sh/docs/intro/install/
+
+Installation mit:
+  - Choco: choco install kubernetes-helm
+  - Scoop: scoop install helm
+
+### Helmfile
+
+https://helmfile.readthedocs.io/en/latest/#installation
+
+Installation mit:
+  - Scoop: scoop install helmfile
 
 ### Skaffold
 
