@@ -27,6 +27,8 @@ Empfehlungen:
 
 In Docker-Desktop aktivieren
 
+Hinweis: Unter Windows sind Kubectl und Minikube bestandteil von Docker-Desktop!
+
 ### Kubectl
 
 https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
@@ -65,6 +67,9 @@ https://k8slens.dev/
 ### Kompose
 
 https://kompose.io/installation/
+
+Installation mit:
+  - Choco: choco install kubernetes-kompose
 
 ### VSCode
 
